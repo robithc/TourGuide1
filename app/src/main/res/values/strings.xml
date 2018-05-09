@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <string name="category_drink">Place to drink</string>
+    <string name="category_food">Place to eat</string>
+    <string name="category_visit">Place to visit</string>
+    <string name="category_stay">Place to stay</string>
+
+    <string name="details">Click here for details</string>
+
+    <string name="zone_cafe_name">Zone Cafe</string>
+    <string name="zone_cafe_location">Strada Uranus 29, Timișoara</string>
+    <string name="zone_cafe_geo_data">https://goo.gl/maps/cD9Y8GwxTw82</string>
+    <string name="zone_cafe_description">Cozy place with coffee, food and drinks. Good place to watch sports.</string>
+
+    <string name="pizza_napoleon_name">Pizza Napoleon</string>
+    <string name="pizza_napoleon_location">Aleea Studenților 5, Timișoara</string>
+    <string name="pizza_napoleon_geo_data">https://goo.gl/maps/VVvM7QWNP8x</string>
+    <string name="pizza_napoleon_description">Pizza, burgers, pasta, shoarma, soups and more. In student\'s area</string>
+
+    <string name="oxford_name">Oxford</string>
+    <string name="oxford_location">Strada Daliei 4, Timișoara</string>
+    <string name="oxford_geo_data">https://goo.gl/maps/M91UYevQFoQ2</string>
+    <string name="oxford_description">Restaurant and Pub with British and international menu. Good place to watch sports.</string>
+
+    <string name="helios_name">Helios Sport Club</string>
+    <string name="helios_location">Bulevardul Doctor Iosif Bulbuca, Timișoara 300736</string>
+    <string name="helios_geo_data">https://goo.gl/maps/VjAQHiCGgZ32</string>
+    <string name="helios_description">Sport club with restaurant, international menu</string>
+
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
