@@ -5,26 +5,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:minHeight= "90dp">
 
 
 
     <ImageButton
-        android:background="@drawable/pub"
+        android:contentDescription="@string/place_details_image"
+        tools:background="@drawable/zone_cafe"
         android:id="@+id/place_details_image"
         android:layout_width="match_parent"
-        android:layout_height="150dp" />
+        android:layout_height="200dp"
+        android:scaleType="fitXY"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp">
+        android:layout_height="wrap_content">
 
 
         <TextView
+
             android:id="@+id/place_details_name_text"
             android:layout_weight="3"
             android:layout_width="0dp"
+            android:gravity="center"
+            android:paddingEnd="0dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="0dp"
+            android:paddingStart="4dp"
             android:layout_height="match_parent"
             tools:text="place name" />
 
@@ -34,19 +42,33 @@
             android:layout_weight="2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="0dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="0dp"
+            android:paddingStart="4dp"
             tools:text="place location" />
 
         <ImageButton
-            android:background="@drawable/ic_place_black_24dp"
+            android:background="@android:color/transparent"
+            tools:background="@drawable/ic_place_black_24dp"
             android:id="@+id/details_go_to_map_button"
+            android:paddingTop="8dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <TextView
+
+        android:paddingEnd="0dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="0dp"
+        android:paddingStart="4dp"
         android:id="@+id/place_details_description_text"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         tools:text="description"/>
 </LinearLayout>

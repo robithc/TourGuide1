@@ -30,6 +30,7 @@ public class DetailsActivity extends AppCompatActivity {
 
 
 
+
         Intent intent = getIntent();
 
 
@@ -49,6 +50,7 @@ public class DetailsActivity extends AppCompatActivity {
         detailsPlaceLocation.setText(placeLocation);
         detailsPlaceImageButton.setImageResource(placeImage);
         mapButton.setImageResource(R.drawable.ic_place_black_24dp);
+
         mapButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

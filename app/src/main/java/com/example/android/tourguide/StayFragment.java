@@ -29,14 +29,13 @@ public class StayFragment extends Fragment {
 
         //Create list of places
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place(R.string.zone_cafe_name, R.string.zone_cafe_location, R.string.zone_cafe_description, R.string.zone_cafe_geo_data,R.drawable.ic_place_black_24dp  ));
-        places.add(new Place(R.string.zone_cafe_name, R.string.zone_cafe_location, R.string.zone_cafe_description, R.string.zone_cafe_geo_data,R.drawable.ic_place_black_24dp  ));
-        places.add(new Place(R.string.zone_cafe_name, R.string.zone_cafe_location, R.string.zone_cafe_description, R.string.zone_cafe_geo_data,R.drawable.ic_place_black_24dp  ));
-        places.add(new Place(R.string.zone_cafe_name, R.string.zone_cafe_location, R.string.zone_cafe_description, R.string.zone_cafe_geo_data,R.drawable.ic_place_black_24dp  ));
-        places.add(new Place(R.string.zone_cafe_name, R.string.zone_cafe_location, R.string.zone_cafe_description, R.string.zone_cafe_geo_data,R.drawable.ic_place_black_24dp  ));
-        places.add(new Place(R.string.zone_cafe_name, R.string.zone_cafe_location, R.string.zone_cafe_description, R.string.zone_cafe_geo_data,R.drawable.ic_place_black_24dp  ));
-        places.add(new Place(R.string.zone_cafe_name, R.string.zone_cafe_location, R.string.zone_cafe_description, R.string.zone_cafe_geo_data,R.drawable.ic_place_black_24dp  ));
-        places.add(new Place(R.string.zone_cafe_name, R.string.zone_cafe_location, R.string.zone_cafe_description, R.string.zone_cafe_geo_data,R.drawable.ic_place_black_24dp  ));
+        places.add(new Place(R.string.hotel_continental_name, R.string.hotel_continental_location, R.string.hotel_continental_description, R.string.hotel_continental_geo_data,R.drawable.continental  ));
+        places.add(new Place(R.string.hostel_costel_name, R.string.hostel_costel_location, R.string.hostel_costel_description, R.string.hostel_costel_geo_data,R.drawable.costel));
+        places.add(new Place(R.string.lido_hotel_name, R.string.lido_hotel_location, R.string.lido_hotel_description, R.string.lido_hotel_geo_data,R.drawable.hotellido ));
+        places.add(new Place(R.string.hotel_boavista_name, R.string.hotel_boavista_location, R.string.hotel_continental_description, R.string.hotel_boavista_geo_data,R.drawable.boavista  ));
+        places.add(new Place(R.string.hotel_timisoara_name, R.string.hotel_timisoara_location, R.string.hotel_timisoara_description, R.string.hotel_timisoara_geo_data,R.drawable.timisoara  ));
+        places.add(new Place(R.string.hotel_exclusiv_name, R.string.hotel_exclusiv_location, R.string.hotel_exclusiv_description, R.string.hotel_exclusiv_geo_data,R.drawable.exclusiv  ));
+
 
 
         PlaceAdapter placeAdapter = new PlaceAdapter(getActivity(), places);

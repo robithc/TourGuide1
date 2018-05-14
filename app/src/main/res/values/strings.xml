@@ -7,7 +7,11 @@
     <string name="category_stay">Place to stay</string>
 
     <string name="details">Click here for details</string>
+    <string name="place_image">image of place from list</string>
+    <string name="place_details_image">image of place on details view</string>
+    <string name="button_for_map">button for opening the map</string>
 
+    //Strings for food places
     <string name="zone_cafe_name">Zone Cafe</string>
     <string name="zone_cafe_location">Strada Uranus 29, Timișoara</string>
     <string name="zone_cafe_geo_data">https://goo.gl/maps/cD9Y8GwxTw82</string>
@@ -27,6 +31,152 @@
     <string name="helios_location">Bulevardul Doctor Iosif Bulbuca, Timișoara 300736</string>
     <string name="helios_geo_data">https://goo.gl/maps/VjAQHiCGgZ32</string>
     <string name="helios_description">Sport club with restaurant, international menu</string>
+
+    <string name="neata_omelette_bistro_name">Neața Omelette Bistro</string>
+    <string name="neata_omelette_bistro_location">Strada Vasile Alecsandri 2, Timișoara</string>
+    <string name="neata_omelette_bistro_geo_data">https://goo.gl/maps/G4t6g6Gacip</string>
+    <string name="neata_omelette_bistro_description">Great place for healthy breakfast and coffee</string>
+
+    <string name="biofresh_name">Biofresh</string>
+    <string name="biofresh_location">2, Strada Francesco Griselini, Timișoara</string>
+    <string name="biofresh_geo_data">https://goo.gl/maps/KD28FHMMePx</string>
+    <string name="biofresh_description">Large selection of vegan meals</string>
+
+    <string name="radha_cuisine_name">Radha Cuisine</string>
+    <string name="radha_cusine_location">Strada Emanoil Ungureanu 13, Timișoara</string>
+    <string name="radha_cusine_geo_data">https://goo.gl/maps/W5sU879cbbr</string>
+    <string name="radha_cousine_description">Great Indian food, all vegan.</string>
+
+    <string name="oro_toro_name">Oro Toro</string>
+    <string name="oro_toro_location">5, Municipiul, Timișoara 300254</string>
+    <string name="oro_toro_geo_data">hhttps://goo.gl/maps/fWWLsZsCLgN2</string>
+    <string name="oro_toro_description">Great burgers and snack\'s</string>
+
+    //Strings for drink places
+
+    <string name="pub80_name">The 80\'s pub</string>
+    <string name="pub80_location">Strada Arieș 19, Timișoara 300736a</string>
+    <string name="pub80_geo_data">https://goo.gl/maps/f5fryPiTB3J2</string>
+    <string name="pub80_description">student\'s pub</string>
+
+    <string name="no_name_club_name">No Name</string>
+    <string name="no_name_club_location">Bulevardul Doctor Iosif Bulbuca, Timișoara</string>
+    <string name="no_name_club_geo_data">https://goo.gl/maps/tTvYsLbMZ9m</string>
+    <string name="no_name_club_description">Live music and pool party</string>
+
+    <string name="cuib_name">Cuib d\'Arte</string>
+    <string name="cuib_location">Strada Mărășești 14, Timișoara</string>
+    <string name="cuib_geo_data">https://goo.gl/maps/ifv4jjmpL5A2</string>
+    <string name="cuib_description">Club looking like private flat party</string>
+
+
+    <string name="darc_pemal_name">D\'arc pe Mal</string>
+    <string name="darc_pemal_location">Bd. Mihai Viteazu, Timisoara, Timis, 300223, Timișoara</string>
+    <string name="darc_pemal_geo_data">https://goo.gl/maps/Z1SmDhFa3d82</string>
+    <string name="darc_pemal_description">Pub and party on a ship</string>
+
+
+    <string name="fratelli_name">Fratelli Lounge and Club</string>
+    <string name="fratelli_location">Bulevardul Corneliu Coposu 1, Timișoara</string>
+    <string name="fratelli_geo_data">https://goo.gl/maps/6ZE2hjk1vGL2</string>
+    <string name="fratelli_description">Luxury club  by the river</string>
+
+    <string name="hype_name">Strada Lucian Blaga 3, Timișoara</string>
+    <string name="hype_location">Strada Lucian Blaga 3, Timișoara</string>
+    <string name="hype_geo_data">https://goo.gl/maps/gkMsaAWZSWQ2</string>
+    <string name="hype_description">Nice cocktail bar</string>
+
+    <string name="epic_society_name">Epic Society</string>
+    <string name="epic_society_location">Strada Miresei 1, Timișoara 300642</string>
+    <string name="epic_society_geo_data">https://goo.gl/maps/opzNnat5uTH2</string>
+    <string name="epic_society_description">Luxury club</string>
+
+    <string name="drunken_rat_name">The Drunken Rat Pub</string>
+    <string name="drunken_rat_location">Strada George Coșbuc 1, Timișoara 300048</string>
+    <string name="drunken_rat_geo_data">https://goo.gl/maps/mj53RnfiGmx</string>
+    <string name="drunken_rat_description">Nice pub at main square</string>
+
+
+    //Strings for visit places
+
+    <string name="libert_square_name">Liberty\'s Square</string>
+    <string name="libert_square_location">Piața Libertății, Timișoara</string>
+    <string name="libert_square_geo_data">https://goo.gl/maps/c2AzDdE5EiD2</string>
+    <string name="libert_square_description">Liberty Square was first called "Square Parade" and "Square Prince Eugen". The name Liberty Square was given in the year 1848 with the Hungarian revolution. After the conquering of Timisoara by the Austrian army, the square changes name to "Prince Eugen Square". </string>
+
+    <string name="piata_unirii_name">Piața Unirii</string>
+    <string name="piata_unirii_location">Bulevardul Doctor Iosif Bulbuca, Timișoara</string>
+    <string name="piata_unirii_geo_data">https://goo.gl/maps/tTvYsLbMZ9m</string>
+    <string name="piata_unirii_description">Main city square</string>
+
+    <string name="piata_victoriei_name">Piaţa Victoriei</string>
+    <string name="piata_victoriei_location">Piața Victoriei, Timișoara</string>
+    <string name="piata_victoriei_data">https://goo.gl/maps/qBFsFY4edq52</string>
+    <string name="piata_victoriei_description">Victory Square is one of the three big market in Timisoara. There is also a statue of the she-wolf suckled Romulus and Remus, and that\'s a tribute to the Italian Government Romania. Market adorns many palaces from the 18th and 19th centuries.</string>
+
+    <string name="roses_park_name">Roses Park</string>
+    <string name="roses_park_location">Timișoara</string>
+    <string name="roses_park_geo_data">https://goo.gl/maps/RgfMguHvo5v</string>
+    <string name="roses_park_description">Beautiful park with roses</string>
+
+    <string name="complex_name">Complexul Studențesc</string>
+    <string name="complex_location">Bulevardul Corneliu Coposu 1, Timișoara</string>
+    <string name="complex_geo_data">https://goo.gl/maps/m52UEJ41ja62</string>
+    <string name="complex_description">Student\'s area, many restaurant\'s</string>
+
+    <string name="sunbeach_name">Strandul Sun Beach</string>
+    <string name="sunbeach_location">Calea Buziașului 9E, Timișoara 300714</string>
+    <string name="sunbeach_geo_data">https://goo.gl/maps/gkMsaAWZSWQ2</string>
+    <string name="sunbeach_description">Great pool with bar and live music</string>
+
+    <string name="iulius_name">Iulius Mall</string>
+    <string name="iulius_location">Strada Aristide Demetriade 1, Timișoara 300088</string>
+    <string name="iulius_geo_data">https://goo.gl/maps/HRyzKGiKFfM2</string>
+    <string name="iulius_description">Biggest mall in city</string>
+
+    <string name="copilor_park_name">Parcul Copiilor Ion Creangă</string>
+    <string name="copilor_park_location">Bulevardul Constantin Diaconovici Loga 43, Timișoara</string>
+    <string name="copilor_park_geo_data">https://goo.gl/maps/1Khi72bTQnB2</string>
+    <string name="copilor_park_description">Big park for kids </string>
+
+
+
+
+
+
+    //Strings for stay places
+    <string name="hotel_continental_name">Hotel Continental</string>
+    <string name="hotel_continental_location">Bulevardul Revoluției din 1989, Timișoara</string>
+    <string name="hotel_continental_geo_data">https://goo.gl/maps/LdpMaTJMh5q</string>
+    <string name="hotel_continental_description">North Star Continental Resort.</string>
+
+    <string name="hostel_costel_name">Hostel Costel</string>
+    <string name="hostel_costel_location">Strada Petru Sfetca 1, Timișoara 300093</string>
+    <string name="hostel_costel_geo_data">https://goo.gl/maps/VVvM7QWNP8x</string>
+    <string name="hostel_costel_description">Hostel</string>
+
+    <string name="lido_hotel_name">Lido Hotel</string>
+    <string name="lido_hotel_location">Bulevardul Doctor Iosif Bulbuca 20, Timișoara</string>
+    <string name="lido_hotel_geo_data">https://goo.gl/maps/BiuKJ88RvGB2</string>
+    <string name="lido_hotel_description">Lido Hotel</string>
+
+    <string name="hotel_boavista_name">Hotel Boavista</string>
+    <string name="hotel_boavista_location">Aleea F. C. Ripensia 7/A, Timișoara 300575</string>
+    <string name="hotel_boavista_geo_data">https://goo.gl/maps/MZxb4UonsRy</string>
+    <string name="hotel_boavista_description">Hotel Boavista</string>
+
+    <string name="hotel_timisoara_name">Hotel Timisoara</string>
+    <string name="hotel_timisoara_location">Strada Mărășești 1, Timișoara 300086</string>
+    <string name="hotel_timisoara_geo_data">https://goo.gl/maps/6ZE2hjk1vGL2</string>
+    <string name="hotel_timisoara_description">Hotel Timisoara</string>
+
+    <string name="hotel_exclusiv_name">Hotel Exclusiv</string>
+    <string name="hotel_exclusiv_location">Strada Salcâmilor 32, Timișoara 300425</string>
+    <string name="hotel_exclusiv_geo_data">https://goo.gl/maps/xyvQ5KoDYZM2</string>
+    <string name="hotel_exclusiv_description">Hotel Exclusiv</string>
+
+    //Strings for visit places
+
 
 
 

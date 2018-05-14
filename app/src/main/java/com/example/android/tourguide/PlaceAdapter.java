@@ -41,13 +41,13 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         TextView placeLocation = listItemView.findViewById(R.id.place_location_text);
         placeLocation.setText(currentPlace.getPlaceLocation());
 
-        TextView placeDescription = listItemView.findViewById(R.id.place_description_text);
-        placeDescription.setText(currentPlace.getPlaceDescription());
+        //TextView placeDescription = listItemView.findViewById(R.id.place_description_text);
+        //placeDescription.setText(currentPlace.getPlaceDescription());
 
 
 
-       ImageButton goToMapButton = listItemView.findViewById(R.id.go_to_map_button);
-       goToMapButton.setImageResource(R.drawable.ic_place_black_24dp);
+       //ImageButton goToMapButton = listItemView.findViewById(R.id.go_to_map_button);
+       //goToMapButton.setImageResource(R.drawable.ic_place_black_24dp);
 
 
 
