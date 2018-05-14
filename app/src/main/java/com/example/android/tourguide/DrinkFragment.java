@@ -40,7 +40,7 @@ public class DrinkFragment extends android.support.v4.app.Fragment {
         ListView listView = rootView.findViewById(R.id.list);
         //Set placeAdapter on listView
         listView.setAdapter(placeAdapter);
-        //Set onItemClickListner on listView
+        //Set onItemClickListener on listView
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
@@ -55,11 +55,8 @@ public class DrinkFragment extends android.support.v4.app.Fragment {
                 intent.putExtra("placeImage", currentPlace.getPlaceImage());
 
                 startActivity(intent);
-
-
             }
         });
-
         return rootView;
     }
 }

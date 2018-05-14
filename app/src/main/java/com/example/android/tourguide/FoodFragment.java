@@ -34,15 +34,19 @@ public class FoodFragment extends Fragment {
         places.add(new Place(R.string.radha_cuisine_name, R.string.radha_cusine_location, R.string.radha_cousine_description, R.string.radha_cusine_geo_data,R.drawable.radha  ));
         places.add(new Place(R.string.oro_toro_name, R.string.oro_toro_location, R.string.oro_toro_description, R.string.oro_toro_geo_data,R.drawable.oro_toro  ));
 
+        //Create placeAdapter
         PlaceAdapter placeAdapter = new PlaceAdapter(getActivity(), places);
-
+        //Create listView
         ListView listView = rootView.findViewById(R.id.list);
+        //Set placeAdapter on listView
         listView.setAdapter(placeAdapter);
-
+        //Set onItemClickListener on listView
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                //get index position of item in list of places
                 Place currentPlace = places.get(position);
+                //create intent to send values from list of places to DetailsActivity
                 Intent intent = new Intent(getActivity(), DetailsActivity.class);
                 intent.putExtra("placeName", getText(currentPlace.getPlaceName()).toString());
                 intent.putExtra("placeLocation", getText(currentPlace.getPlaceLocation()).toString());
@@ -53,7 +57,6 @@ public class FoodFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         return rootView;
     }
 }
