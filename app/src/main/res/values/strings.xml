@@ -69,17 +69,19 @@
     <string name="cuib_geo_data">https://goo.gl/maps/ifv4jjmpL5A2</string>
     <string name="cuib_description">Club looking like private flat party</string>
 
+
     <string name="darc_pemal_name">D\'arc pe Mal</string>
     <string name="darc_pemal_location">Bd. Mihai Viteazu, Timisoara, Timis, 300223, Timișoara</string>
     <string name="darc_pemal_geo_data">https://goo.gl/maps/Z1SmDhFa3d82</string>
     <string name="darc_pemal_description">Pub and party on a ship</string>
+
 
     <string name="fratelli_name">Fratelli Lounge and Club</string>
     <string name="fratelli_location">Bulevardul Corneliu Coposu 1, Timișoara</string>
     <string name="fratelli_geo_data">https://goo.gl/maps/6ZE2hjk1vGL2</string>
     <string name="fratelli_description">Luxury club  by the river</string>
 
-    <string name="hype_name">Hype cocktail bar</string>
+    <string name="hype_name">Strada Lucian Blaga 3, Timișoara</string>
     <string name="hype_location">Strada Lucian Blaga 3, Timișoara</string>
     <string name="hype_geo_data">https://goo.gl/maps/gkMsaAWZSWQ2</string>
     <string name="hype_description">Nice cocktail bar</string>
@@ -93,6 +95,7 @@
     <string name="drunken_rat_location">Strada George Coșbuc 1, Timișoara 300048</string>
     <string name="drunken_rat_geo_data">https://goo.gl/maps/mj53RnfiGmx</string>
     <string name="drunken_rat_description">Nice pub at main square</string>
+
 
     //Strings for visit places
 
@@ -136,6 +139,11 @@
     <string name="copilor_park_geo_data">https://goo.gl/maps/1Khi72bTQnB2</string>
     <string name="copilor_park_description">Big park for kids </string>
 
+
+
+
+
+
     //Strings for stay places
     <string name="hotel_continental_name">Hotel Continental</string>
     <string name="hotel_continental_location">Bulevardul Revoluției din 1989, Timișoara</string>
@@ -167,6 +175,6 @@
     <string name="hotel_exclusiv_geo_data">https://goo.gl/maps/xyvQ5KoDYZM2</string>
     <string name="hotel_exclusiv_description">Hotel Exclusiv</string>
 
-
+    //Strings for visit places
 
 </resources>

@@ -1,44 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
     android:id="@+id/details_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:minHeight="90dp"
-    android:orientation="vertical">
+    android:minHeight= "90dp">
+
+
 
     <ImageButton
+        android:contentDescription="@string/place_details_image"
+        tools:background="@drawable/zone_cafe"
         android:id="@+id/place_details_image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:contentDescription="@string/place_details_image"
-        android:scaleType="fitXY"
-        tools:background="@drawable/zone_cafe" />
+        android:scaleType="fitXY"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp">
+        android:layout_height="wrap_content">
+
 
         <TextView
+
             android:id="@+id/place_details_name_text"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
             android:layout_weight="3"
+            android:layout_width="0dp"
             android:gravity="center"
             android:paddingEnd="0dp"
             android:paddingLeft="4dp"
             android:paddingRight="0dp"
             android:paddingStart="4dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:layout_height="match_parent"
             tools:text="place name" />
+
 
         <TextView
             android:id="@+id/place_details_location_text"
+            android:layout_weight="2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
             android:gravity="center"
             android:paddingEnd="0dp"
             android:paddingLeft="4dp"
@@ -47,24 +50,25 @@
             tools:text="place location" />
 
         <ImageButton
+            android:background="@android:color/transparent"
+            tools:background="@drawable/ic_place_black_24dp"
             android:id="@+id/details_go_to_map_button"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:scaleType="fitXY"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:paddingTop="8dp"
-            tools:background="@drawable/ic_place_black_24dp" />
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/place_details_description_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+
         android:paddingEnd="0dp"
         android:paddingLeft="4dp"
         android:paddingRight="0dp"
         android:paddingStart="4dp"
-        android:paddingTop="8dp"
-        tools:text="description" />
+        android:id="@+id/place_details_description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="description"/>
 </LinearLayout>
